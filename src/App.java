@@ -6,12 +6,12 @@ public class App {
 
         PersonController personController = new PersonController();
         Person[] personas = makePersonList();
-        System.out.println("Arreglo Original:");
+        System.out.println("Arreglo Original: ");
         for (int i = 0; i < personas.length; i++) {
             System.out.println(personas[i]);
         }
         personController.sortByName(personas);
-        System.out.println("\nArreglo Ordenado:");
+        System.out.println("\nArreglo Ordenado: ");
         for (int i = 0; i < personas.length; i++) {
             System.out.println(personas[i]);
         }
